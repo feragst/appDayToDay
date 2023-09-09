@@ -3,5 +3,14 @@
 
 
 
+
+
+
+
+
 # Screen samples
 ![sample of the main screen](screens/1-MainScreen.png)
+![sample of the reminders screen](screens/2-ReminderScreen.png)
+![sample of the journal screen](screens/3-JournalScreen.png)
+![sample of journaling screen](screens/3.1-JournalingScreen.png)
+![sample of the personal goals screen](screens/4-GoalsScreen.png)
