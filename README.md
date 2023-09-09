@@ -5,4 +5,3 @@
 
 # Screen samples
 
-![Main screen](1.Main%screen.png)
