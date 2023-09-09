@@ -9,8 +9,18 @@
 
 
 # Screen samples
+
+Main screen sample
 ![sample of the main screen](screens/1-MainScreen.png)
+
+Reminder screen sample
 ![sample of the reminders screen](screens/2-ReminderScreen.png)
+
+Journal screen sample
 ![sample of the journal screen](screens/3-JournalScreen.png)
+
+Journaling screen sample
 ![sample of journaling screen](screens/3.1-JournalingScreen.png)
+
+Personal goals screen sample
 ![sample of the personal goals screen](screens/4-GoalsScreen.png)
