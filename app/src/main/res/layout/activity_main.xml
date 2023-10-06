@@ -6,4 +6,77 @@
     android:layout_height="match_parent"
     android:background="#7E9565"
     android:backgroundTint="#FF7E9565"
-    tools:context=".MainActivity" />
+    tools:context=".MainActivity" >
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnDiario"
+        android:layout_width="112dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="252dp"
+        android:clickable="true"
+        app:backgroundTint="#D8FDAD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnLembretes"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionBarItemBackground" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnLembretes"
+        android:layout_width="112dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="252dp"
+        android:clickable="true"
+        app:backgroundTint="#D8FDAD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionBarItemBackground" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnMetas"
+        android:layout_width="112dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="152dp"
+        android:clickable="true"
+        app:backgroundTint="#D8FDAD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="?attr/actionBarItemBackground" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="104dp"
+        android:rotation="232"
+        app:layout_constraintEnd_toEndOf="@+id/btnMetas"
+        app:layout_constraintTop_toTopOf="@+id/btnMetas"
+        app:srcCompat="@drawable/folha" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLembretes"
+        app:layout_constraintStart_toStartOf="@+id/btnLembretes"
+        app:srcCompat="@drawable/folha" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="92dp"
+        android:rotation="314"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDiario"
+        app:layout_constraintEnd_toEndOf="@+id/btnDiario"
+        app:srcCompat="@drawable/folha" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
