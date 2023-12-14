@@ -22,4 +22,18 @@ public class MainActivity extends AppCompatActivity {
         telaLembrt.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(telaLembrt);
     }
+
+    public void abrirTelaDiario(View v){
+
+        Intent telaDiar = new Intent(getApplicationContext(), TelaDiario.class);
+        telaDiar.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(telaDiar);
+    }
+
+    public void abrirTelaMetas(View v){
+
+        Intent telaMet = new Intent(getApplicationContext(), TelaMetas.class);
+        telaMet.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(telaMet);
+    }
 }
